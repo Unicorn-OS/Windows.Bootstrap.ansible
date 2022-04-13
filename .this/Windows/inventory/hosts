@@ -1,0 +1,9 @@
+[test]
+192.168.122.210
+
+[test:vars]
+ansible_user=me
+ansible_password=12345Xy
+ansible_connection=winrm
+ansible_winrm_transport=basic
+ansible_winrm_server_cert_validation=ignore
